@@ -1,0 +1,122 @@
+@import './hollow/css.css';
+
+#write {
+	color: #4d4d4d;  /* Default font color */
+	max-width: 100%;
+}
+
+html {
+	font-size: 16px; /* Default font size */
+}
+
+#write p {
+	letter-spacing: 0.1px;
+	line-height: 1.8;
+	margin: 20px 0;
+}
+
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+	font-family: 'Noto Serif', 'Times New Roman', serif;
+}
+
+/*---------- Link ----------*/
+a {
+	color: #ce2323;
+	text-decoration: underline;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+}
+
+a img:hover,
+a img:focus {
+	cursor: zoom-in;
+}
+
+/*---------- Inline code ----------*/
+code {
+	color: #ce2323;
+	background-color: #273435;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 800;
+  margin: 32px 0 20px;
+}
+
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 14px;
+}
+
+h6 {
+	font-size: 12px;
+}
+
+strong {
+	font-weight: 700;
+}
+
+em {
+	font-size: italic;
+}
+
+u {
+	text-decoration: underline;
+}
+
+table tr th{
+	font-weight: 700;
+	border: 1px solid #dfe2e5;
+	padding: 6px 13px;
+}
+
+table tr td {
+	border: 1px solid #dfe2e5;
+	padding: 6px 13px;
+}
+
+blockquote {
+	font-family: "Georgia", serif;
+	font-size: 1em;
+	color: rgba(115,115,115,0.9);
+	text-align: left;
+}
+
+ol, ul {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
